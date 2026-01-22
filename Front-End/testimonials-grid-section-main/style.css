@@ -1,0 +1,244 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.card {
+  background-color: rgba(236, 242, 248, 1);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  max-width: 1110px;
+  width: 100%;
+  grid-gap: 20px;
+  grid-row-gap: 20px;
+  height: 673px;
+  box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.25);
+}
+
+.danielclifford {
+  background-color: rgba(115, 63, 200, 1);
+  padding: 20px 25px 28px;
+  border-radius: 5px;
+  background-image: url(./images/bg-pattern-quotation.svg);
+  background-repeat: no-repeat;
+  background-position: top right 45px;
+  grid-column: 1/3;
+}
+
+.daniel {
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 13px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.imgautor1 {
+  border-radius: 50%;
+  border: 2px solid rgba(167, 117, 241, 1);
+}
+
+.imgautor1 {
+  max-width: 31px;
+  width: 100%;
+}
+
+.graduate {
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 11px;
+  color: rgba(255, 255, 255, 0.353);
+  margin-top: 5px;
+}
+
+.autor1 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.cours {
+  font-family: Barlow Semi Condensed;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  max-width: 476px;
+  width: 100%;
+  margin-top: 15px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.content {
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 500;
+  max-width: 476px;
+  width: 100%;
+  margin-top: 15px;
+  color: rgba(207, 207, 207, 0.559);
+}
+
+.jhonatan {
+  font-family: Barlow Semi Condensed;
+  padding: 20px 20px 20px;
+  background: rgba(72, 85, 106, 1);
+  border-radius: 5px;
+}
+
+.contents {
+  color: rgba(255, 255, 255, 0.474);
+  margin-top: 10px;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.imgautor2 {
+  border-radius: 50%;
+  max-width: 31px;
+  width: 100%;
+}
+
+.jon {
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 13px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.graduat2 {
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 11px;
+  color: rgba(255, 255, 255, 0.495);
+  margin-top: 5px;
+}
+
+.courses {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 1);
+  margin-top: 10px;
+}
+
+.autor2 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.juneta {
+  padding: 20px 20px 20px;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 5px;
+  grid-column: 1/2;
+  box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.25);
+}
+
+.imgjulet {
+  border-radius: 50%;
+  max-width: 31px;
+  width: 100%;
+}
+
+.autor3 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.janetaharmon {
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 24px;
+  color: rgba(72, 85, 106, 1);
+}
+
+.graduat3 {
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 11px;
+  color: rgba(72, 85, 106, 1);
+}
+
+.coursestrhee {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  color: rgba(72, 85, 106, 1);
+  margin-top: 10px;
+}
+
+.contentstree {
+  margin-top: 15px;
+}
+
+.patrikabrams {
+  background-color: rgba(25, 32, 45, 1);
+  padding: 20px 25px 28px;
+  border-radius: 5px;
+  grid-column: 2/4;
+  grid-row: 2/3;
+  box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.25);
+}
+
+.kirawhite {
+  background-color: rgba(255, 255, 255, 1);
+  padding: 20px 20px 20px;
+  border-radius: 5px;
+  grid-column: 4/4;
+  grid-row: 1/2;
+  grid-row: 1;
+  grid-row-end: 3;
+  box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.25);
+}
+
+.autorfive {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.imgautorfive {
+  border-radius: 50%;
+  max-width: 31px;
+  width: 100%;
+}
+
+.kira {
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 24px;
+  color: rgba(72, 85, 106, 1);
+}
+
+.kiratittle {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  color: rgba(72, 85, 106, 1);
+  margin-top: 10px;
+}
+
+.kiracontent {
+  margin-top: 15px;
+}
+
+@media (max-width: 600px) {
+  .card {
+    display: flex;
+    flex-direction: column;
+    max-width: 327px;
+    width: 100%;
+  }
+  .kirawhite {
+  }
+}
