@@ -1,1 +1,1 @@
-
+This folder contains my QA internship work completed at Genofide. It includes test scenarios, test cases, a checklist, a decision table, bug reports, and API testing collections created during my internship.
