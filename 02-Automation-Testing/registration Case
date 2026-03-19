@@ -1,0 +1,25 @@
+registration Test case
+
+1. Open website https://invu.ge/
+2. Click login button
+3. chlick on the button "sign up"
+4. Enter First Name “anastasia77”
+5. Enter Last Name “anita222”
+6. Enter email “anastasianefaridze77@gmail.com”
+7. Enter password “anaAna77”
+8. Enter confirm password "anaAna77"
+9. Click “Create Account”
+10. Validate logged in succesfully
+
+rel adress
+
+1. //a[@href="/login"]
+2. //button [ "@class=font-medium transition-colors"]
+3. //input[@id="firstName"] text_field.send_keys("anastasia77")
+4. //input[@id="lastName"] text_field.send_keys("anita222")
+5. //input[@id="email"] text_field.send_keys("anastasianefaridze77@gmail.com")
+6. //input[@type="password"] text_field.send_keys("anaAna77")
+7. click on the button//button[@type="submit"]
+
+expected result
+Validate logged in succesfully
